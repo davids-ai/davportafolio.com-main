@@ -1,26 +1,25 @@
-import createMDX from '@next/mdx'
-import rehypeShiki from '@shikijs/rehype'
-import createNextIntlPlugin from 'next-intl/plugin';
+import createMDX from '@next/mdx';
+import rehypeShiki from '@shikijs/rehype';
+import createNextIntlPlugin from 'next-intl/plugin.js';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-}
+  trailingSlash: true,
+};
 
 const withMDX = createMDX({
   options: {
     remarkPlugins: [],
     rehypePlugins: [[rehypeShiki, {
       themes: {
-        light: "catppuccin-latte",
-        dark: "github-dark",
-      }
+        light: 'catppuccin-latte',
+        dark: 'github-dark',
+      },
     }]],
   },
-})
+});
 
-const withNextIntl = createNextIntlPlugin(
-  './src/i18n.ts'
-);
+const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
-export default withMDX(withNextIntl(nextConfig))
+export default withMDX(withNextIntl(nextConfig));
