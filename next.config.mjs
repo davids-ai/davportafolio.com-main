@@ -1,14 +1,11 @@
-import createMDX from '@next/mdx';
-import rehypeShiki from '@shikijs/rehype';
-import createNextIntlPlugin from 'next-intl/plugin.js';
+import createMDX from '@next/mdx'
+import rehypeShiki from '@shikijs/rehype'
+import createNextIntlPlugin from 'next-intl/plugin';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // 👈 Necesario para GitHub Pages
-  basePath: '/davportafolio.com-main', // 👈 Coincide con el nombre del repo
-  trailingSlash: true, // 👈 Asegura compatibilidad con rutas estáticas
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-};
+}
 
 const withMDX = createMDX({
   options: {
@@ -20,8 +17,10 @@ const withMDX = createMDX({
       }
     }]],
   },
-});
+})
 
-const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
+const withNextIntl = createNextIntlPlugin(
+  './src/i18n.ts'
+);
 
-export default withMDX(withNextIntl(nextConfig));
+export default withMDX(withNextIntl(nextConfig))
