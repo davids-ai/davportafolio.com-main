@@ -2,13 +2,11 @@
   "name": "dresan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://davids-ai.github.io/davportafolio.com-main/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@calcom/embed-react": "^1.5.2",
