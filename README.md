@@ -9,11 +9,11 @@
 - [Features](#features)
 - [Contact](#contact)
 
-![img_1.png](public/assets/images/mobile.png)
+![img_1.png]()
 ---
-![img_2.png](public/assets/images/mac.png)
+![img_2.png]()
 ---
-![img_3.png](public/assets/images/ipad.png)
+![img_3.png]()
 
 ## Project Structure
 
