@@ -1,11 +1,11 @@
 import createMDX from '@next/mdx';
 import rehypeShiki from '@shikijs/rehype';
-import createNextIntlPlugin from 'next-intl/plugin.js';
+import createNextIntlPlugin from 'next-intl/plugin';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  trailingSlash: true,
+  trailingSlash: true, // opcional
 };
 
 const withMDX = createMDX({
