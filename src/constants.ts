@@ -1,22 +1,14 @@
-export const DRESAN_EMAIL = "me@dsrojaslop.com"
+export const DRESAN_EMAIL = "dsrojaslop@gmail.com"
 export const HOST_URL = "https://dsrojaslop.com"
 export const FORMSPREE_URL = "https://formspree.io/f"
 
 export const APP_ROUTES = [
 	{
-		href: "https://box.dsrojaslop.com/",
-		label: "boxoflove",
-	},
-	{
-		href: "https://blog.dsrojaslop.com",
-		label: "blog",
-	},
-	{
-		href: "https://t.me/dsrojaslop",
+		href: "https://api.whatsapp.com/send/?phone=%2B573214055107&text&type=phone_number&app_absent=0",
 		label: "chat",
 	},
 	{
-		href: "https://meet.dsrojaslop.com",
+		href: "https://cal.com/david-rojas-o0yrkt",
 		label: "meet",
 	}
 ]

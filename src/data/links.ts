@@ -2,17 +2,17 @@
 export const socialMediaLinks = [
 	{
 		label: "LinkedIn",
-		url: "https://www.linkedin.com/in/maxcomperatore/",
+		url: "https://www.linkedin.com/in/dsrojaslop/",
 		icon: "LinkedInIcon",
 		className: "linkedin",
 	},
 	{
 		label: "GitHub",
-		url: "https://github.com/pyoneerC",
+		url: "https://github.com/davids-ai",
 		icon: "GithubIcon",
 		className: "github",
 	},
-	{
+	/*{
 		label: "X",
 		url: "https://x.com/maxcompx",
 		icon: "EmailIcon",
@@ -29,5 +29,5 @@ export const socialMediaLinks = [
 		url: "https://pyoneerc1.itch.io/",
 		icon: "ItchioIcon",
 		className: "itchio",
-	},
+	},*/
 ];

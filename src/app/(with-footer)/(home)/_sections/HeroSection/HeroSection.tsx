@@ -116,7 +116,7 @@ export const HeroSection = () => {
 
 			<div className={styles.buttonContainer} ref={buttonContainerRef}>
 				<Button rounded="full" size="small" asChild className={styles.button}>
-					<NextLink href="" target="_blank" rel="noopener">
+					<NextLink href="https://www.linkedin.com/in/dsrojaslop/" target="_blank" rel="noopener">
 						<span className={styles.availableCircle}></span>
 						{t("availability")}
 					</NextLink>
@@ -124,7 +124,7 @@ export const HeroSection = () => {
 			</div>
 
 			<div className={styles.actions} ref={actionsRef}>
-				<NextLink href="" target="_blank" prefetch={true} passHref>
+				<NextLink href="https://drive.google.com/file/d/1hhMxGBShz7eUqXt_GvEu8W75KByVa4e1/view?usp=sharing" target="_blank" prefetch={true} passHref>
 					<Button className={styles.actionBtn} variant="outlined">
 						Descargar
 					</Button>
