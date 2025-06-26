@@ -197,7 +197,7 @@ export const AboutSection = () => {
 				<div className={styles.photoWrapper} ref={photoWrapperRef}>
 					<img
 						src="/assets/images/pfp.avif"
-						alt="David Rojas"
+						alt="Maximo Comperatore"
 						className={styles.photo}
 						loading="lazy"
 						width={300} // Specify intrinsic size for performance

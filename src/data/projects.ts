@@ -53,15 +53,15 @@ export const projects = [
 		links: [
 			{
 				label: "mercadolibrepricechart.linkVisitSite",
-				url: "https://cinemaximo.netlify.app/",
+				url: "",
 			},
 			{
 				label: "mercadolibrepricechart.linkViewVideo",
-				url: "https://youtu.be/0zoD_jpB_t4",
+				url: "",
 			},
 			{
 				label: "mercadolibrepricechart.linkViewCode",
-				url: "https://github.com/pyoneerC/Cinemax-B",
+				url: "",
 			},
 		],
 		tags:
@@ -91,11 +91,11 @@ export const projects = [
 			},
 			{
 				label: "monedasAPI.linkViewVideo",
-				url: "https://hub.docker.com/r/maxcomperatore/bliklink",
+				url: "",
 			},
 			{
 				label: "monedasAPI.linkViewCode",
-				url: "https://github.com/pyoneerC/BlinkLink",
+				url: "",
 			},
 		],
 		tags:
@@ -121,11 +121,11 @@ export const projects = [
 		links: [
 			{
 				label: "TheDungeon.linkItchIo",
-				url: "https://pyoneerc1.itch.io/spu",
+				url: "",
 			},
 			{
 				label: "TheDungeon.linkViewVideos",
-				url: "https://www.youtube.com/watch?v=l8W4iZG-S3U&t=2s&ab_channel=pyoneerC",
+				url: "",
 			},
 		],
 		tags:

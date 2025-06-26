@@ -14,19 +14,19 @@ export const socialMediaLinks = [
 	},
 	/*{
 		label: "X",
-		url: "https://x.com/maxcompx",
+		url: "",
 		icon: "EmailIcon",
 		className: "email",
 	},
 	{
 		label: "YouTube",
-		url: "https://www.youtube.com/channel/UCgZDAjllREu-3YeU-961EBg",
+		url: "",
 		icon: "YoutubeIcon",
 		className: "youtube",
 	},
 	{
 		label: "itch.io",
-		url: "https://pyoneerc1.itch.io/",
+		url: "",
 		icon: "ItchioIcon",
 		className: "itchio",
 	},*/

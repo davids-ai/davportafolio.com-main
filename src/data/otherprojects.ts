@@ -46,35 +46,35 @@ export const coverProjects: CoverProjectOther[] = [
 		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
 		description: "mercadix",
 		tags: [Tag.python, Tag.flask, Tag.html],
-		link: "https://maxcomperatore.store/"
+		link: ""
 	},
 	{
 		...projectMetadata.thegreatchocolatecaper,
 		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.avif`,
 		description: "tgcp",
 		tags: [Tag.python, Tag.pytorch, Tag.huggingface],
-		link: "https://github.com/pyoneerC/0xwik1tr0n"
+		link: ""
 	},
 	{
 		...projectMetadata.HillClimbRacing,
 		imageUrl: `/assets/images/projects/otherprojectscover/hcr.avif`,
 		description: "hcr",
 		tags: [Tag.unity, Tag.cSharp],
-		link: "https://github.com/pyoneerC/Hill-Climb-Racing"
+		link: ""
 	},
 	{
 		...projectMetadata.argentofx,
 		imageUrl: `/assets/images/projects/cover/monedasapi.avif`,
 		description: "afx",
 		tags: [Tag.python, Tag.redis, Tag.docker],
-		link: "https://publicapi.dev/argento-fx-api",
+		link: "",
 	},
 	{
 		...projectMetadata.arrayutils,
 		imageUrl: `/assets/images/projects/otherprojectscover/arrayutils.avif`,
 		description: "arrayutils",
 		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
-		link: "https://www.unrealengine.com/marketplace/en-US/product/array-utils"
+		link: ""
 	},
 	{
 		...projectMetadata.roadmapsh,
