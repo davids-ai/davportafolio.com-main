@@ -54,32 +54,5 @@ export const coverProjects: CoverProjectOther[] = [
 		description: "tgcp",
 		tags: [Tag.python, Tag.pytorch, Tag.huggingface],
 		link: ""
-	},
-	{
-		...projectMetadata.HillClimbRacing,
-		imageUrl: `/assets/images/projects/otherprojectscover/hcr.avif`,
-		description: "hcr",
-		tags: [Tag.unity, Tag.cSharp],
-		link: ""
-	},
-	{
-		...projectMetadata.argentofx,
-		imageUrl: `/assets/images/projects/cover/monedasapi.avif`,
-		description: "afx",
-		tags: [Tag.python, Tag.redis, Tag.docker],
-		link: "",
-	},
-	{
-		...projectMetadata.arrayutils,
-		imageUrl: `/assets/images/projects/otherprojectscover/arrayutils.avif`,
-		description: "arrayutils",
-		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
-		link: ""
-	},
-	{
-		...projectMetadata.roadmapsh,
-		imageUrl: `/assets/images/projects/otherprojectscover/roadmapsh.avif`,
-		description: "roadmapsh",
-		link: "https://roadmap.sh"
-	},
+	}
 ]
